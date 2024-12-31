@@ -17,7 +17,7 @@ body {
     font-family: Poppins;
     font-weight: 400;
     margin-left: 50px;
-    margin-top: 130px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 
@@ -43,6 +43,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: 10px;
+    font-size: 25px;
 }
 
 .fotoautor {
@@ -62,6 +63,7 @@ body {
     font-family: Poppins;
     font-weight: 500;
     margin-left: 50px;
+    margin-right: 20px;
     color: white;
     margin-top: 80px;
 }
@@ -69,12 +71,16 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #000000;
+    font-size: 45px;
+    display: inline-flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
     margin-left: 50px;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 a:hover {
-    text-decoration: underline;
-}
-
-
+    color: #ffffff;
+    }
