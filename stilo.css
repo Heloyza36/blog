@@ -12,7 +12,8 @@ body {
     background-color: #848A9D ;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 /*.logo {
@@ -24,14 +25,12 @@ body {
 
 .tagline {
     margin-top: 130px;
-    margin-left: 70px;
     font-size: 50px;
     font-family: Poppins ;
     /* parece pequeno para a tela */ 
 }
 
 .descricao {
-    margin-left: 70px;
     margin-top: 5px;
     font-size: 25px;
     margin-bottom: 300px;
@@ -45,7 +44,6 @@ body {
     color: #00000086 ;
     font-family: Poppins;
     font-weight: 300;
-    margin-left: 70px;
     margin-bottom: 25px;
 }
 
@@ -54,25 +52,28 @@ body {
     color: #00000086 ;
     font-family: Poppins;
     font-weight: 300;
-    margin-left: 70px;
     margin-bottom: 25px;
     margin-top: 90px;
 }
 
 .titulo {
     font-size: 35px;
-    margin-left: 70px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
 .texto {
     font-size: 20px;
-    margin: 20px 0px 20px 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: Poppins;
     font-weight: 400;
 
 
+}
+
+.autor {
+    margin-left: 10px;
 }
 
 .infoautor {
@@ -80,16 +81,15 @@ body {
     align-items: center;
     margin-top: 8px;
     
+    
 }
 
 .fotoautor {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-right: 12px;
     object-fit: cover;
     border: 2px solid;
-    margin-left: 70px;
 }
 
 a {
