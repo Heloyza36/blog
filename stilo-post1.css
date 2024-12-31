@@ -8,33 +8,33 @@
 body {
     background-color: #848A9D ;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
 
 } 
 
 .data {
-    font-size: 25px;
+    font-size: 35px;
     color: #00000086 ;
     font-family: Poppins;
     font-weight: 400;
     margin-left: 50px;
     margin-top: 130px;
+    margin-bottom: 30px;
 }
 
 .titulo {
     font-family: Poppins ;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
     color: white;
-    margin: 15px 0px 15px 50px;
+    margin: 15px 0px 35px 50px;
 
 }
 
 .post1 {
-    font-size: 25px ;
+    font-size: 35px ;
     font-family: Poppins;
-    font-weight: 500;
-    margin-left: 50px;
+    font-weight: 400;
+    margin: 15px 0px 50px 50px; 
     color: white;
 }
 
@@ -53,10 +53,12 @@ body {
     object-fit: cover;
     border: 2px solid;
     margin-left: 50px;
+    margin-bottom: 80px;
+    
 }
 
 .post {
-    font-size: 20px ;
+    font-size: 15px ;
     font-family: Poppins;
     font-weight: 500;
     margin-left: 50px;
