@@ -13,22 +13,31 @@ body {
 } 
 
 .data {
-    font-size: 15px;
+    font-size: 25px;
     color: #00000086 ;
     font-family: Poppins;
     font-weight: 400;
     margin-left: 50px;
-    margin-top: 60px;
+    margin-top: 130px;
 }
 
 .titulo {
     font-family: Poppins ;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
-    margin: 10px 0px 15px 50px;
+    margin: 15px 0px 15px 50px;
 
 }
+
+.post2 {
+    font-size: 25px ;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-left: 50px;
+    color: white;
+}
+
 
 .infoautor {
     display: flex;
@@ -47,7 +56,7 @@ body {
 }
 
 .post {
-    font-size: 30px ;
+    font-size: 20px ;
     font-family: Poppins;
     font-weight: 500;
     margin-left: 50px;
