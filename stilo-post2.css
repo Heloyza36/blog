@@ -5,49 +5,52 @@
     padding: 0px;
 }
 
-
 body {
-    background-color: #848A9D;
-}
+    background-color: #848A9D ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+} 
 
 .data {
-    font-size: 40px;
+    font-size: 15px;
     color: #00000086 ;
     font-family: Poppins;
     font-weight: 400;
+    margin-left: 50px;
+    margin-top: 60px;
 }
 
-
 .titulo {
-    font-family: Poppins;
-    font-size: 40px;
+    font-family: Poppins ;
+    font-size: 30px;
     font-weight: bold;
     color: white;
-    margin-left: 70px;
+    margin: 10px 0px 15px 50px;
 
 }
 
 .infoautor {
     display: flex;
     align-items: center;
-    margin-top: 8px;
+    
 }
 
 .fotoautor {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin-right: 12px;
     object-fit: cover;
     border: 2px solid;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 .post {
-    font-size: 45px ;
+    font-size: 30px ;
     font-family: Poppins;
     font-weight: 500;
-    margin-left: 70px;
+    margin-left: 50px;
     color: white;
 }
 
