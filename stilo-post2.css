@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.data {
+    font-size: 40px;
+    color: #00000086 ;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+
+.titulo {
+    font-family: Poppins;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    margin-left: 70px;
+
+}
+
+.infoautor {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.fotoautor {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+    object-fit: cover;
+    border: 2px solid;
+    margin-left: 70px;
+}
+
+.post {
+    font-size: 45px ;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-left: 70px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
