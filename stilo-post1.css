@@ -5,8 +5,11 @@
     padding: 0px;
 }
 
+body {
+    background-color: #848A9D;
+}
 .data {
-    font-size: 40px;
+    font-size: 23px;
     color: #00000086 ;
     font-family: Poppins;
     font-weight: 400;
@@ -14,8 +17,8 @@
 }
 
 .titulo {
-    font-family: Poppins;
-    font-size: 80px;
+    font-family: Poppins ;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     margin-left: 70px;
@@ -43,6 +46,7 @@
     font-family: Poppins;
     font-weight: 500;
     margin-left: 70px;
+    color: white;
 }
 
 
