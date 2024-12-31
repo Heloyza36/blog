@@ -85,3 +85,23 @@ a {
 a:hover {
     color: #ffffff;
     }
+
+    .icons {
+        display: flex;
+        margin-top: 15px;
+        margin-left: 35px;
+    }
+
+    .icons span {
+        font-size: 70px;
+        cursor: pointer;
+        transition: color 0.2s;
+        font-weight: bold;
+        
+    }
+
+    
+
+    .icons span:hover {
+        color: #007bff6e;
+    }
