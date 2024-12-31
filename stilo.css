@@ -22,7 +22,42 @@ body {
 }
      <h1 class="logo">Sync Future</h1>
 */
-
+.inscricao {
+    padding: 20px;
+    background-color: #524E4E;
+    border-radius: 5px;
+    margin-right: 300px;
+  }
+  
+  .inscricao form {
+    display: inline-block;
+    text-align: left;
+    font-size: 35px;
+    font-family: Poppins;
+    font-weight: 600;
+  }
+  
+  .inscricao input {
+    padding: 9px;
+    margin-right: 9px;
+    font-size: 19px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-weight: 500;
+  }
+  
+  .inscricao button {
+    padding: 10px 18px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #3757B8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Poppins;
+    font-weight: 500;
+  }
 .tagline {
     margin-top: 130px;
     font-size: 50px;
@@ -33,7 +68,7 @@ body {
 .descricao {
     margin-top: 5px;
     font-size: 25px;
-    margin-bottom: 300px;
+    margin-bottom: 150px;
     font-family: Poppins ;
     font-weight: 200;
     /* colocar pra ficar o texto na linha debaixo tbm */
@@ -45,6 +80,7 @@ body {
     font-family: Poppins;
     font-weight: 300;
     margin-bottom: 25px;
+    margin-top: 110px;
 }
 
 .data2 {
