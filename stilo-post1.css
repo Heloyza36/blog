@@ -8,10 +8,12 @@
 body {
     background-color: #848A9D ;
     color: white;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
 
 } 
+
+
 
 .data {
     font-size: 35px;
@@ -62,7 +64,7 @@ body {
      
 }
 
- 
+  
 .post {
     font-size: 30px ;
     font-family: Poppins;
@@ -82,26 +84,45 @@ a {
     font-weight: bold;
 }
 
-a:hover {
-    color: #ffffff;
-    }
-
-    .icons {
-        display: flex;
-        margin-top: 15px;
-        margin-left: 35px;
-    }
-
-    .icons span {
-        font-size: 70px;
-        cursor: pointer;
-        transition: color 0.2s;
-        font-weight: bold;
-        
-    }
-
+.container-seta {
+    display: flex; /* Usando flexbox para alinhar a seta, a imagem e o nome lado a lado */
+    align-items: center; /* Alinha os itens verticalmente no centro */
     
+  }
+  
+  .seta {
+    margin-right: 10px; /* Espaço entre a seta e a imagem */
+    font-size: 50px; /* Tamanho da seta */
+    text-decoration: none;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .seta:hover {
+   color: white;
+   
+  }
+  .container-imagem {
+    display: flex; /* Coloca a imagem e o nome lado a lado */
+    align-items: end; /* Alinha a imagem e o nome no centro verticalmente */
+    margin-bottom: 20px;
+  }
+  
+  .imagem {
+    width: 70px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    margin-left: 10 px;
+    margin-top: 20px;
 
-    .icons span:hover {
-        color: #007bff6e;
-    }
+  }
+  
+  .nome-imagem {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Cor do nome */
+    padding-bottom: 10px;
+    font-family: Poppins serif;
+    margin-left: -27px;
+  }
+  

@@ -12,16 +12,34 @@ body {
     background-color: #848A9D ;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-/*.logo {
-    font-size: 32px;
+.container-imagem {
+    display: flex; /* Usando flexbox para alinhar a imagem e o nome lado a lado */
+    align-items: end; /* Alinha verticalmente ao centro */
+   
+
+  }
+  
+  .imagem {
+    width: 70px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    margin-left: -22px;
+    margin-top: 20px;
+
+  }
+  
+  .nome-imagem {
+    font-size: 24px;
     font-weight: bold;
-}
-     <h1 class="logo">Sync Future</h1>
-*/
+    color: #333; /* Cor do nome */
+    padding-bottom: 10px;
+    font-family: Poppins serif;
+    margin-left: -27px;
+  }
+
 
 
 .inscricao {
@@ -90,7 +108,7 @@ body {
   }
 
 .tagline {
-    margin-top: 100px;
+    margin-top: 60px;
     font-size: 50px;
     font-family: Poppins ;
     /* parece pequeno para a tela */ 
@@ -99,7 +117,7 @@ body {
 .descricao {
     margin-top: 5px;
     font-size: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 85px;
     font-family: Poppins ;
     font-weight: 200;
     /* colocar pra ficar o texto na linha debaixo tbm */
