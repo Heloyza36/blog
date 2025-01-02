@@ -22,44 +22,75 @@ body {
 }
      <h1 class="logo">Sync Future</h1>
 */
+
+
 .inscricao {
-    padding: 20px;
-    background-color: #524E4E;
-    border-radius: 5px;
-    margin-right: 300px;
+    max-width: 65%; /* Permite que a caixa ocupe toda a largura disponível */
+    width: 100%; /* Adiciona uma largura padrão com margem */
+    padding: 40px;
+    background-color: #3a3a3a; /* Fundo da seção */
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inscricao label {
+    display: block;
+    font-size: 39px;
+    margin-bottom: 15px;
   }
   
   .inscricao form {
-    display: inline-block;
-    text-align: left;
-    font-size: 35px;
-    font-family: Poppins;
-    font-weight: 600;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; /* Permite quebra de linha */
+    justify-content: center;
   }
   
   .inscricao input {
-    padding: 9px;
-    margin-right: 9px;
-    font-size: 19px;
+    flex: 1;
+    padding: 8px 0px 8px 0px; /* passsando da margem */
+    font-size: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-family: Poppins;
-    font-weight: 500;
+    
   }
   
   .inscricao button {
-    padding: 10px 18px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #3757B8;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #1e73e8;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-family: Poppins;
-    font-weight: 500;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Ocupa a largura completa em telas pequenas */
   }
+  
+  .inscricao button:hover {
+    background-color: #155ab0;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .inscricao {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    .inscricao form {
+      flex-direction: column; /* Ajusta para coluna em telas pequenas */
+    }
+  
+    .inscricao input,
+    .inscricao button {
+      width: 100%; /* Garante que input e botão ocupem toda a largura */
+    }
+  }
+
 .tagline {
-    margin-top: 130px;
+    margin-top: 100px;
     font-size: 50px;
     font-family: Poppins ;
     /* parece pequeno para a tela */ 
@@ -68,7 +99,7 @@ body {
 .descricao {
     margin-top: 5px;
     font-size: 25px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     font-family: Poppins ;
     font-weight: 200;
     /* colocar pra ficar o texto na linha debaixo tbm */
